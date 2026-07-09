@@ -271,16 +271,19 @@ body::after {
 .hero-meta .divider { width: 1px; background: var(--line); }
 
 /* hero visual */
-.hero-visual { position: relative; height: 100%; min-height: 440px; }
+.hero-visual { position: relative; height: 100%; min-height: 440px; display: grid; place-items: center; }
+/* Fixed square stage — ring, plate and chips are all positioned relative to THIS,
+   so their alignment stays locked together at every viewport width. */
+.hero-stage { position: relative; width: min(440px, 100%); aspect-ratio: 1 / 1; }
 .hero-plate {
-  position: absolute; width: 340px; max-width: 74%; left: 50%; top: 50%;
+  position: absolute; width: 72%; left: 50%; top: 50%;
   transform: translate(-50%, -50%);
   filter: drop-shadow(0 40px 50px rgba(74,40,20,0.28));
   animation: floatY 7s var(--ease) infinite;
 }
 @keyframes floatY { 0%,100% { transform: translate(-50%, -52%); } 50% { transform: translate(-50%, -46%); } }
 .hero-ring {
-  position: absolute; inset: 0; margin: auto; width: 420px; height: 420px; max-width: 92%;
+  position: absolute; inset: 0;
   border-radius: 50%; border: 2px dashed rgba(178,58,36,0.28);
   animation: spin 40s linear infinite;
 }
@@ -299,9 +302,10 @@ body::after {
 @keyframes floatChip { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-9px); } }
 .hero-chip i { color: var(--brick); }
 .hero-chip small { display: block; font-weight: 500; font-size: 0.74rem; color: var(--ink-soft); }
-.hero-chip.c1 { top: 3%; left: 5%; animation-delay: 0.5s; }
-.hero-chip.c2 { bottom: 9%; right: 2%; animation-delay: 1.4s; }
-.hero-chip.c3 { bottom: 9%; left: 2%; animation-delay: 2.1s; }
+/* Balanced triangle straddling the orbit: one at top, two symmetric at the bottom. */
+.hero-chip.c1 { top: 2%; left: 6%; animation-delay: 0.5s; }
+.hero-chip.c2 { bottom: 2%; right: 4%; animation-delay: 1.4s; }
+.hero-chip.c3 { bottom: 2%; left: 4%; animation-delay: 2.1s; }
 .hero-chip .emoji { font-size: 1.3rem; }
 
 .hero-glow { position: absolute; border-radius: 50%; filter: blur(60px); z-index: -1; }
