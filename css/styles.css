@@ -294,13 +294,14 @@ body::after {
   position: absolute; display: flex; align-items: center; gap: 10px;
   background: var(--paper); padding: 11px 15px; border-radius: 16px;
   box-shadow: var(--shadow-md); border: 1px solid var(--line-2);
-  font-weight: 600; font-size: 0.9rem; animation: floatY 6s var(--ease) infinite;
+  font-weight: 600; font-size: 0.9rem; animation: floatChip 6s var(--ease) infinite;
 }
+@keyframes floatChip { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-9px); } }
 .hero-chip i { color: var(--brick); }
 .hero-chip small { display: block; font-weight: 500; font-size: 0.74rem; color: var(--ink-soft); }
-.hero-chip.c1 { top: 8%; left: -2%; animation-delay: 0.5s; }
-.hero-chip.c2 { bottom: 12%; right: -4%; animation-delay: 1.4s; }
-.hero-chip.c3 { bottom: 2%; left: 8%; animation-delay: 2.1s; }
+.hero-chip.c1 { top: 3%; left: 5%; animation-delay: 0.5s; }
+.hero-chip.c2 { bottom: 9%; right: 2%; animation-delay: 1.4s; }
+.hero-chip.c3 { bottom: 9%; left: 2%; animation-delay: 2.1s; }
 .hero-chip .emoji { font-size: 1.3rem; }
 
 .hero-glow { position: absolute; border-radius: 50%; filter: blur(60px); z-index: -1; }
