@@ -1,0 +1,31 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Arepa plate illustration">
+  <circle cx="100" cy="104" r="86" fill="#000" opacity="0.06"/>
+  <circle cx="100" cy="100" r="86" fill="#FFFBF3"/>
+  <circle cx="100" cy="100" r="86" fill="none" stroke="#EADFC6" stroke-width="4"/>
+  <circle cx="100" cy="100" r="72" fill="none" stroke="#F0E6D0" stroke-width="2"/>
+  <!-- arepa base -->
+  <circle cx="100" cy="102" r="52" fill="#F3E3B8"/>
+  <circle cx="100" cy="102" r="52" fill="none" stroke="#E0C883" stroke-width="3"/>
+  <circle cx="100" cy="102" r="52" fill="none" stroke="#D8B457" stroke-width="1.5" stroke-dasharray="2 6" opacity="0.6"/>
+  <!-- toasted spots -->
+  <g fill="#DFC074" opacity="0.7"><circle cx="78" cy="86" r="5"/><circle cx="120" cy="120" r="6"/><circle cx="126" cy="84" r="4"/><circle cx="74" cy="120" r="4"/></g>
+  <!-- filling burst (cut open) -->
+  <path d="M100 50 a52 52 0 0 1 46 28 q-24 14 -46 12 q-22 2 -46 -12 a52 52 0 0 1 46 -28 z" fill="#F7EDCF" opacity="0.9"/>
+  <!-- shredded chicken/cheese filling -->
+  <g stroke="#EED9A6" stroke-width="3" stroke-linecap="round" fill="none">
+    <path d="M70 74 q30 -10 60 0"/>
+    <path d="M74 82 q26 8 52 0"/>
+  </g>
+  <path d="M76 72 q24 -14 48 0 q4 8 -6 12 q-18 8 -36 0 q-10 -4 -6 -12 z" fill="#E7B24B"/>
+  <g stroke="#B87E2C" stroke-width="2.4" stroke-linecap="round" fill="none">
+    <path d="M82 72 q18 -6 36 2"/>
+    <path d="M80 80 q20 4 40 -2"/>
+  </g>
+  <!-- black beans dots -->
+  <g fill="#2C1D17"><ellipse cx="90" cy="66" rx="4" ry="2.6"/><ellipse cx="104" cy="64" rx="4" ry="2.6"/><ellipse cx="112" cy="70" rx="4" ry="2.6"/></g>
+  <!-- avocado slices -->
+  <g fill="#7D9A3E" stroke="#5E7A2E" stroke-width="1.4">
+    <path d="M126 96 q14 4 18 16 q-12 2 -20 -8 z"/>
+    <path d="M124 106 q13 5 15 16 q-11 1 -18 -9 z"/>
+  </g>
+</svg>

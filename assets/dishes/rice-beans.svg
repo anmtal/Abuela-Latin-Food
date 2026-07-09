@@ -1,0 +1,32 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Rice and black beans illustration">
+  <circle cx="100" cy="104" r="86" fill="#000" opacity="0.06"/>
+  <circle cx="100" cy="100" r="86" fill="#FFFBF3"/>
+  <circle cx="100" cy="100" r="86" fill="none" stroke="#EADFC6" stroke-width="4"/>
+  <circle cx="100" cy="100" r="72" fill="none" stroke="#F0E6D0" stroke-width="2"/>
+  <!-- rice half -->
+  <path d="M100 44 a56 56 0 0 0 0 112 z" fill="#FBF4E3"/>
+  <g fill="#F1E6C9" stroke="#E7D9BC" stroke-width="1">
+    <ellipse cx="78" cy="80" rx="6" ry="3" transform="rotate(20 78 80)"/>
+    <ellipse cx="70" cy="94" rx="6" ry="3" transform="rotate(-15 70 94)"/>
+    <ellipse cx="82" cy="104" rx="6" ry="3" transform="rotate(30 82 104)"/>
+    <ellipse cx="66" cy="110" rx="6" ry="3" transform="rotate(-25 66 110)"/>
+    <ellipse cx="80" cy="120" rx="6" ry="3" transform="rotate(10 80 120)"/>
+    <ellipse cx="88" cy="90" rx="6" ry="3" transform="rotate(-20 88 90)"/>
+    <ellipse cx="72" cy="126" rx="6" ry="3" transform="rotate(40 72 126)"/>
+  </g>
+  <!-- beans half -->
+  <path d="M100 44 a56 56 0 0 1 0 112 z" fill="#3A2116"/>
+  <path d="M100 44 a56 56 0 0 1 0 112 z" fill="#2C1A11" opacity="0.4"/>
+  <g fill="#5A3320">
+    <ellipse cx="120" cy="80" rx="6" ry="4" transform="rotate(20 120 80)"/>
+    <ellipse cx="130" cy="92" rx="6" ry="4" transform="rotate(-15 130 92)"/>
+    <ellipse cx="118" cy="102" rx="6" ry="4" transform="rotate(30 118 102)"/>
+    <ellipse cx="132" cy="110" rx="6" ry="4"/>
+    <ellipse cx="122" cy="120" rx="6" ry="4" transform="rotate(-20 122 120)"/>
+    <ellipse cx="126" cy="72" rx="6" ry="4" transform="rotate(40 126 72)"/>
+    <ellipse cx="112" cy="90" rx="6" ry="4"/>
+  </g>
+  <g fill="#7a4a2e" opacity="0.8"><circle cx="124" cy="86" r="1.5"/><circle cx="120" cy="110" r="1.5"/><circle cx="130" cy="100" r="1.5"/></g>
+  <!-- cilantro garnish center -->
+  <g fill="#5E7A2E"><circle cx="100" cy="70" r="3"/><circle cx="100" cy="130" r="2.6"/></g>
+</svg>

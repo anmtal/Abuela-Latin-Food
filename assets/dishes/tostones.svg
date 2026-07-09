@@ -1,0 +1,26 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Tostones fried plantains illustration">
+  <circle cx="100" cy="104" r="86" fill="#000" opacity="0.06"/>
+  <circle cx="100" cy="100" r="86" fill="#FFFBF3"/>
+  <circle cx="100" cy="100" r="86" fill="none" stroke="#EADFC6" stroke-width="4"/>
+  <circle cx="100" cy="100" r="72" fill="none" stroke="#F0E6D0" stroke-width="2"/>
+  <g stroke="#C8862A" stroke-width="2">
+    <circle cx="82" cy="82" r="24" fill="#E7B24B"/>
+    <circle cx="124" cy="96" r="24" fill="#EAB84F"/>
+    <circle cx="94" cy="124" r="24" fill="#E3AC42"/>
+  </g>
+  <!-- textured centers -->
+  <g fill="#D9A03C">
+    <circle cx="82" cy="82" r="14"/><circle cx="124" cy="96" r="14"/><circle cx="94" cy="124" r="14"/>
+  </g>
+  <g fill="#C68E30" opacity="0.7">
+    <circle cx="78" cy="80" r="3"/><circle cx="86" cy="86" r="2.4"/><circle cx="84" cy="78" r="2"/>
+    <circle cx="120" cy="94" r="3"/><circle cx="128" cy="100" r="2.4"/><circle cx="126" cy="90" r="2"/>
+    <circle cx="90" cy="122" r="3"/><circle cx="98" cy="128" r="2.4"/><circle cx="96" cy="118" r="2"/>
+  </g>
+  <!-- crispy edges -->
+  <g fill="#B9782A" opacity="0.6">
+    <circle cx="60" cy="80" r="2.4"/><circle cx="104" cy="70" r="2.4"/><circle cx="146" cy="96" r="2.4"/><circle cx="94" cy="148" r="2.4"/><circle cx="70" cy="118" r="2.4"/>
+  </g>
+  <!-- garlic dip -->
+  <g transform="translate(140,140)"><ellipse cx="0" cy="0" rx="14" ry="9" fill="#F3ECDD" stroke="#E3D3B0" stroke-width="2"/><ellipse cx="0" cy="0" rx="8" ry="5" fill="#EEE6CF"/></g>
+</svg>

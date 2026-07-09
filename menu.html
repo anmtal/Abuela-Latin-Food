@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menu | Abuela Latin Food — Pernil, Carne Mechada, Empanadas &amp; More</title>
+  <meta name="description" content="Explore the Abuela Latin Food menu: slow-roasted pernil, carne mechada, homemade Latin lasagna, empanadas, arepas, tostones, tres leches and more — all made fresh for catering." />
+  <meta name="theme-color" content="#B23A24" />
+  <meta property="og:title" content="Menu | Abuela Latin Food" />
+  <meta property="og:description" content="Homemade Latin dishes for catering — pernil, carne mechada, Latin lasagna, empanadas and more." />
+
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&family=Outfit:wght@300..700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" id="header">
+    <div class="container nav">
+      <a href="index.html" class="brand" aria-label="Abuela Latin Food home"><img src="assets/logo.svg" alt="Abuela Latin Food" class="brand-logo" /></a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="menu.html" class="active">Menu</a>
+        <a href="catering.html">Catering</a>
+        <a href="catering.html#faq">FAQ</a>
+      </nav>
+      <div class="nav-actions">
+        <a href="tel:+16479726553" class="nav-phone"><i class="fa-solid fa-phone"></i> (647) 972-6553</a>
+        <a href="catering.html#quote" class="btn btn--sm">Get a Quote</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu"><i class="fa-solid fa-bars"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ MOBILE DRAWER ============ -->
+  <div class="scrim" id="scrim"></div>
+  <aside class="mobile-drawer" id="drawer" aria-label="Mobile menu">
+    <div class="drawer-head">
+      <img src="assets/logo.svg" alt="Abuela Latin Food" style="height:46px" />
+      <button class="drawer-close" id="drawerClose" aria-label="Close menu"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <nav>
+      <a href="index.html">Home <i class="fa-solid fa-chevron-right"></i></a>
+      <a href="menu.html" class="active">Menu <i class="fa-solid fa-chevron-right"></i></a>
+      <a href="catering.html">Catering <i class="fa-solid fa-chevron-right"></i></a>
+      <a href="catering.html#faq">FAQ <i class="fa-solid fa-chevron-right"></i></a>
+    </nav>
+    <div class="drawer-cta">
+      <a href="catering.html#quote" class="btn btn--block">Get a Free Quote</a>
+      <a href="index.html" class="btn btn--ghost btn--block">Back Home</a>
+    </div>
+    <div class="drawer-contact">
+      <a href="tel:+16479726553"><i class="fa-solid fa-phone"></i> (647) 972-6553</a>
+      <a href="mailto:hello@abuelalatinfood.com"><i class="fa-solid fa-envelope"></i> hello@abuelalatinfood.com</a>
+      <a href="https://www.instagram.com/abuelalatinfood/" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i> @abuelalatinfood</a>
+    </div>
+  </aside>
+
+  <!-- ============ PAGE HERO ============ -->
+  <section class="page-hero">
+    <div class="hero-glow g1"></div>
+    <div class="container">
+      <div class="breadcrumbs reveal"><a href="index.html">Home</a> <span>/</span> <span>Menu</span></div>
+      <span class="eyebrow eyebrow--center reveal d1" style="margin-top:14px">Fresh · Homemade · Latin</span>
+      <h1 class="reveal d1">The <span class="text-grad">Menu</span></h1>
+      <p class="reveal d2">Every dish is cooked fresh to order and served in generous catering trays. Mix, match, and build the spread your guests will remember.</p>
+    </div>
+  </section>
+
+  <!-- ============ MENU ============ -->
+  <section class="section" style="padding-top:10px">
+    <div class="container">
+      <div class="menu-filter reveal">
+        <button class="filter-btn active" data-filter="all"><i class="fa-solid fa-utensils"></i> All <span class="filter-count">10</span></button>
+        <button class="filter-btn" data-filter="mains"><i class="fa-solid fa-drumstick-bite"></i> Mains <span class="filter-count">4</span></button>
+        <button class="filter-btn" data-filter="handhelds"><i class="fa-solid fa-hand-holding"></i> Handhelds <span class="filter-count">2</span></button>
+        <button class="filter-btn" data-filter="sides"><i class="fa-solid fa-bowl-rice"></i> Sides <span class="filter-count">2</span></button>
+        <button class="filter-btn" data-filter="sweets"><i class="fa-solid fa-ice-cream"></i> Sweets <span class="filter-count">2</span></button>
+      </div>
+
+      <div class="menu-grid">
+        <!-- MAINS -->
+        <article class="menu-card reveal" data-cat="mains">
+          <div class="menu-card-media"><div class="menu-badges"><span class="menu-badge pop">Popular</span></div><img src="assets/dishes/pernil.svg" alt="Pernil" /></div>
+          <div class="menu-card-body">
+            <div class="top"><div><h3>Pernil</h3><div class="es">Slow-roasted pulled pork</div></div><div class="price">$65</div></div>
+            <p>Pork shoulder marinated overnight in garlic, sour orange &amp; herbs, then roasted low-and-slow until it pulls apart. Crackling edges included.</p>
+            <div class="menu-card-foot"><span class="pill"><i class="fa-solid fa-people-group"></i> Serves 8–10</span><span class="pill"><i class="fa-solid fa-fire"></i> Slow-cooked</span></div>
+          </div>
+        </article>
+
+        <article class="menu-card reveal d1" data-cat="mains">
+          <div class="menu-card-media"><div class="menu-badges"><span class="menu-badge pop">Popular</span></div><img src="assets/dishes/carne-mechada.svg" alt="Carne mechada" /></div>
+          <div class="menu-card-body">
+            <div class="top"><div><h3>Carne Mechada</h3><div class="es">Braised shredded beef</div></div><div class="price">$70</div></div>
+            <p>Flank beef braised for hours with sofrito, peppers &amp; tomato until fork-tender. Rich, savoury, and endlessly comforting.</p>
+            <div class="menu-card-foot"><span class="pill"><i class="fa-solid fa-people-group"></i> Serves 8–10</span><span class="pill"><i class="fa-solid fa-fire"></i> Slow-cooked</span></div>
+          </div>
+        </article>
+
+        <article class="menu-card reveal d2" data-cat="mains">
+          <div class="menu-card-media"><div class="menu-badges"><span class="menu-badge pop">Popular</span></div><img src="assets/dishes/pasticho.svg" alt="Latin lasagna" /></div>
+          <div class="menu-card-body">
+            <div class="top"><div><h3>Latin Lasagna</h3><div class="es">Pasticho</div></div><div class="price">$60</div></div>
+            <p>Layers of pasta, rich meat ragù and creamy béchamel baked golden and bubbling. The tray everyone fights over.</p>
+            <div class="menu-card-foot"><span class="pill"><i class="fa-solid fa-people-group"></i> Serves 10–12</span><span class="pill"><i class="fa-solid fa-cheese"></i> Baked fresh</span></div>
+          </div>
+        </article>
+
+        <article class="menu-card reveal d3" data-cat="mains">
+          <div class="menu-card-media"><div class="menu-badges"><span class="menu-badge">Best value</span></div><img src="assets/dishes/party-tray.svg" alt="Combo tray" /></div>
+          <div class="menu-card-body">
+            <div class="top"><div><h3>Abuela's Combo Tray</h3><div class="es">Mixed feast tray</div></div><div class="price">$120</div></div>
+            <p>Can't choose? Get a little of everything — pernil, carne mechada, rice and black beans in one generous party tray.</p>
+            <div class="menu-card-foot"><span class="pill"><i class="fa-solid fa-people-group"></i> Serves 12–15</span><span class="pill"><i class="fa-solid fa-star"></i> Crowd pleaser</span></div>
+          </div>
+        </article>
+
+        <!-- HANDHELDS -->
+        <article class="menu-card reveal" data-cat="handhelds">
+          <div class="menu-card-media"><div class="menu-badges"><span class="menu-badge pop">Popular</span></div><img src="assets/dishes/empanadas.svg" alt="Empanadas" /></div>
+          <div class="menu-card-body">
+            <div class="top"><div><h3>Empanadas</h3><div class="es">Golden hand pies</div></div><div class="price">$30 <small style="font-weight:500;color:var(--ink-soft)">/dz</small></div></div>
+            <p>Crispy corn-dough pockets stuffed with seasoned beef or cheese and fried to a golden crunch. Served with our house dipping sauce.</p>
+            <div class="menu-card-foot"><span class="pill"><i class="fa-solid fa-layer-group"></i> Per dozen</span><span class="pill"><i class="fa-solid fa-hand-holding-heart"></i> Party starter</span></div>
+          </div>
+        </article>
+
+        <article class="menu-card reveal d1" data-cat="handhelds">
+          <div class="menu-card-media"><div class="menu-badges"><span class="menu-badge veg">Veg option</span></div><img src="assets/dishes/arepa.svg" alt="Arepas" /></div>
+          <div class="menu-card-body">
+            <div class="top"><div><h3>Arepas</h3><div class="es">Stuffed corn cakes</div></div><div class="price">$36 <small style="font-weight:500;color:var(--ink-soft)">/dz</small></div></div>
+            <p>Toasted corn cakes split and stuffed with shredded beef, cheese, or avocado. Naturally gluten-free and utterly addictive.</p>
+            <div class="menu-card-foot"><span class="pill"><i class="fa-solid fa-seedling"></i> Gluten-free</span><span class="pill"><i class="fa-solid fa-layer-group"></i> Per dozen</span></div>
+          </div>
+        </article>
+
+        <!-- SIDES -->
+        <article class="menu-card reveal" data-cat="sides">
+          <div class="menu-card-media"><div class="menu-badges"><span class="menu-badge veg">Vegetarian</span></div><img src="assets/dishes/rice-beans.svg" alt="Rice and black beans" /></div>
+          <div class="menu-card-body">
+            <div class="top"><div><h3>Caraotas &amp; Rice</h3><div class="es">Black beans &amp; white rice</div></div><div class="price">$35</div></div>
+            <p>Silky slow-simmered black beans over fluffy white rice — the soul-warming staple that ties every Latin plate together.</p>
+            <div class="menu-card-foot"><span class="pill"><i class="fa-solid fa-people-group"></i> Serves 10–12</span><span class="pill"><i class="fa-solid fa-seedling"></i> Vegetarian</span></div>
+          </div>
+        </article>
+
+        <article class="menu-card reveal d1" data-cat="sides">
+          <div class="menu-card-media"><div class="menu-badges"><span class="menu-badge veg">Vegetarian</span></div><img src="assets/dishes/tostones.svg" alt="Tostones" /></div>
+          <div class="menu-card-body">
+            <div class="top"><div><h3>Tostones</h3><div class="es">Twice-fried plantains</div></div><div class="price">$32</div></div>
+            <p>Green plantains smashed and fried crisp, salted while hot and served with a creamy garlic dip. Crunchy on the outside, tender within.</p>
+            <div class="menu-card-foot"><span class="pill"><i class="fa-solid fa-people-group"></i> Serves 8–10</span><span class="pill"><i class="fa-solid fa-seedling"></i> Vegan</span></div>
+          </div>
+        </article>
+
+        <!-- SWEETS -->
+        <article class="menu-card reveal" data-cat="sweets">
+          <div class="menu-card-media"><div class="menu-badges"><span class="menu-badge pop">Popular</span></div><img src="assets/dishes/tres-leches.svg" alt="Tres leches" /></div>
+          <div class="menu-card-body">
+            <div class="top"><div><h3>Tres Leches</h3><div class="es">Three-milk sponge cake</div></div><div class="price">$45</div></div>
+            <p>Airy sponge soaked in three milks, topped with cloud-like cream and a dusting of cinnamon. Impossibly moist, never too sweet.</p>
+            <div class="menu-card-foot"><span class="pill"><i class="fa-solid fa-people-group"></i> Serves 10–12</span><span class="pill"><i class="fa-solid fa-cake-candles"></i> Dessert</span></div>
+          </div>
+        </article>
+
+        <article class="menu-card reveal d1" data-cat="sweets">
+          <div class="menu-card-media"><div class="menu-badges"><span class="menu-badge">Classic</span></div><img src="assets/dishes/quesillo.svg" alt="Quesillo flan" /></div>
+          <div class="menu-card-body">
+            <div class="top"><div><h3>Quesillo</h3><div class="es">Latin caramel flan</div></div><div class="price">$40</div></div>
+            <p>Silky baked custard crowned with a glossy caramel top. A wobble of pure nostalgia to finish the feast just right.</p>
+            <div class="menu-card-foot"><span class="pill"><i class="fa-solid fa-people-group"></i> Serves 8–10</span><span class="pill"><i class="fa-solid fa-cake-candles"></i> Dessert</span></div>
+          </div>
+        </article>
+
+        <div class="menu-empty" id="menuEmpty"><i class="fa-solid fa-utensils" style="font-size:2rem;color:var(--brick)"></i><p style="margin-top:12px">Nothing here yet — try another category.</p></div>
+      </div>
+
+      <div class="menu-note reveal">
+        <i class="fa-solid fa-circle-info"></i>
+        <p style="margin:0"><strong>Prices are sample per-tray estimates.</strong> Trays feed groups, portions are generous, and custom menus are always welcome — including vegetarian, allergy-friendly &amp; kids' options. Ask us anything!</p>
+      </div>
+
+      <div class="center" style="margin-top:44px">
+        <a href="catering.html#quote" class="btn btn--lg reveal"><i class="fa-solid fa-utensils"></i> Build Your Catering Order</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA ============ -->
+  <section class="section" style="padding-top:0">
+    <div class="container">
+      <div class="cta-band reveal-scale">
+        <h2>Hungry yet? Let's plan your spread.</h2>
+        <p>Tell us your headcount and we'll recommend the perfect combination of trays for your event.</p>
+        <div class="hero-ctas">
+          <a href="catering.html#quote" class="btn btn--white btn--lg">Get a Free Quote</a>
+          <a href="https://wa.me/16479726553" target="_blank" rel="noopener" class="btn btn--gold btn--lg"><i class="fa-brands fa-whatsapp"></i> Ask on WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="assets/logo.svg" alt="Abuela Latin Food" class="logo-invert" />
+          <p>Homemade Latin food catering for the celebrations that matter. Slow-cooked, small-batch, and always made with love.</p>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/abuelalatinfood/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.me/16479726553" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="mailto:hello@abuelalatinfood.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+          </div>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <div class="footer-links">
+            <a href="index.html">Home</a><a href="menu.html">Full Menu</a><a href="catering.html">Catering &amp; Events</a><a href="catering.html#faq">FAQ</a>
+          </div>
+        </div>
+        <div>
+          <h4>Popular</h4>
+          <div class="footer-links">
+            <a href="menu.html">Pernil</a><a href="menu.html">Carne Mechada</a><a href="menu.html">Latin Lasagna</a><a href="menu.html">Party Trays</a>
+          </div>
+        </div>
+        <div>
+          <h4>Get in Touch</h4>
+          <div class="footer-contact">
+            <a href="tel:+16479726553"><i class="fa-solid fa-phone"></i> (647) 972-6553</a>
+            <a href="mailto:hello@abuelalatinfood.com"><i class="fa-solid fa-envelope"></i> hello@abuelalatinfood.com</a>
+            <span><i class="fa-solid fa-location-dot"></i> 268 White Pines Dr, Burlington, ON L7L 4E7</span>
+            <span><i class="fa-solid fa-clock"></i> Orders: 48 hours' notice</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> Abuela Latin Food. Made with <i class="fa-solid fa-heart" style="color:var(--brick)"></i> &amp; sabor.</span>
+        <span>Homemade Latin catering · Pernil · Carne Mechada · Pasticho</span>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/16479726553" target="_blank" rel="noopener" class="fab-wa" aria-label="Chat on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+  <button class="to-top" id="toTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

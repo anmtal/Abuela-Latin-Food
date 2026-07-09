@@ -1,0 +1,31 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Empanadas plate illustration">
+  <circle cx="100" cy="104" r="86" fill="#000" opacity="0.06"/>
+  <circle cx="100" cy="100" r="86" fill="#FFFBF3"/>
+  <circle cx="100" cy="100" r="86" fill="none" stroke="#EADFC6" stroke-width="4"/>
+  <circle cx="100" cy="100" r="72" fill="none" stroke="#F0E6D0" stroke-width="2"/>
+  <g>
+    <!-- empanada 1 -->
+    <g transform="rotate(-14 80 84)">
+      <path d="M52 84 a28 20 0 0 1 56 0 a28 20 0 0 1 -56 0 z" fill="#E0A23C"/>
+      <path d="M52 84 a28 20 0 0 1 56 0" fill="none" stroke="#C4832A" stroke-width="2.5"/>
+      <path d="M54 84 q3 -5 3 0 q3 -5 3 0 q3 -5 3 0 q3 -5 3 0 q3 -5 3 0 q3 -5 3 0 q3 -5 3 0 q3 -5 3 0 q3 -5 3 0" fill="none" stroke="#B9782A" stroke-width="2.4"/>
+      <ellipse cx="80" cy="76" rx="18" ry="6" fill="#EBB457" opacity="0.7"/>
+    </g>
+    <!-- empanada 2 -->
+    <g transform="rotate(16 120 118)">
+      <path d="M92 118 a28 20 0 0 1 56 0 a28 20 0 0 1 -56 0 z" fill="#D9973A"/>
+      <path d="M92 118 a28 20 0 0 1 56 0" fill="none" stroke="#BC7C28" stroke-width="2.5"/>
+      <path d="M94 118 q3 -5 3 0 q3 -5 3 0 q3 -5 3 0 q3 -5 3 0 q3 -5 3 0 q3 -5 3 0 q3 -5 3 0 q3 -5 3 0 q3 -5 3 0" fill="none" stroke="#A96f24" stroke-width="2.4"/>
+      <ellipse cx="120" cy="110" rx="18" ry="6" fill="#E6AC52" opacity="0.7"/>
+    </g>
+  </g>
+  <!-- dipping sauce -->
+  <g transform="translate(66,132)">
+    <ellipse cx="0" cy="0" rx="16" ry="11" fill="#F1E7D2" stroke="#E3D3B0" stroke-width="2"/>
+    <ellipse cx="0" cy="0" rx="10" ry="7" fill="#5E7A2E"/>
+    <ellipse cx="-2" cy="-2" rx="4" ry="2.4" fill="#7FA23C" opacity="0.7"/>
+  </g>
+  <!-- lime -->
+  <path d="M150 128 a15 15 0 0 1 -13 11 l-2 -16 z" fill="#7FA23C"/>
+  <path d="M148 128 a10 10 0 0 1 -8 7 l-1 -10 z" fill="#B9CE6B"/>
+</svg>

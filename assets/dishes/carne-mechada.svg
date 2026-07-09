@@ -1,0 +1,41 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Carne mechada plate illustration">
+  <circle cx="100" cy="104" r="86" fill="#000" opacity="0.06"/>
+  <circle cx="100" cy="100" r="86" fill="#FFFBF3"/>
+  <circle cx="100" cy="100" r="86" fill="none" stroke="#EADFC6" stroke-width="4"/>
+  <circle cx="100" cy="100" r="72" fill="none" stroke="#F0E6D0" stroke-width="2"/>
+  <!-- rice bed -->
+  <g fill="#FBF4E3" stroke="#E7D9BC" stroke-width="1">
+    <ellipse cx="128" cy="128" rx="6" ry="3" transform="rotate(20 128 128)"/>
+    <ellipse cx="118" cy="136" rx="6" ry="3" transform="rotate(-15 118 136)"/>
+    <ellipse cx="134" cy="140" rx="6" ry="3" transform="rotate(30 134 140)"/>
+    <ellipse cx="140" cy="122" rx="6" ry="3" transform="rotate(-25 140 122)"/>
+    <ellipse cx="122" cy="122" rx="6" ry="3" transform="rotate(10 122 122)"/>
+  </g>
+  <!-- shredded beef mound -->
+  <path d="M56 96 q44 -40 88 0 q4 18 -10 26 q-34 16 -68 0 q-14 -8 -10 -26 z" fill="#7A3018"/>
+  <g stroke="#A9552B" stroke-width="3" stroke-linecap="round" fill="none">
+    <path d="M62 92 q38 -18 76 0"/>
+    <path d="M60 102 q40 -12 80 0"/>
+    <path d="M66 112 q34 10 68 0"/>
+    <path d="M70 84 q30 -10 60 2"/>
+    <path d="M64 118 q36 8 72 0"/>
+  </g>
+  <g stroke="#5E2211" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.85">
+    <path d="M68 96 q32 -10 64 2"/>
+    <path d="M66 108 q34 6 68 -2"/>
+  </g>
+  <!-- red pepper strips -->
+  <g fill="#C43A22" stroke="#9c2c18" stroke-width="1">
+    <path d="M80 88 q14 -4 26 2 l-2 5 q-12 -5 -25 -1 z"/>
+    <path d="M92 104 q16 -2 28 4 l-2 5 q-14 -6 -28 -3 z"/>
+  </g>
+  <!-- onion slivers -->
+  <g stroke="#F3ECDD" stroke-width="2" fill="none" opacity="0.9">
+    <path d="M76 100 q16 4 30 -2"/>
+    <path d="M84 112 q14 3 26 -3"/>
+  </g>
+  <!-- lime + cilantro -->
+  <path d="M138 78 a15 15 0 0 1 13 11 l-15 5 z" fill="#7FA23C"/>
+  <path d="M139 82 a10 10 0 0 1 8 7 l-9 3 z" fill="#B9CE6B"/>
+  <g fill="#5E7A2E"><circle cx="66" cy="76" r="3"/><circle cx="74" cy="80" r="2.4"/><circle cx="60" cy="82" r="2.2"/></g>
+</svg>

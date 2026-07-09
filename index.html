@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abuela Latin Food | Homemade Latin Catering for Your Celebrations</title>
+  <meta name="description" content="Abuela Latin Food serves slow-cooked pernil, tender carne mechada, and homemade Latin lasagna for parties and events. Fresh, homestyle Latin catering made with love. Request a free quote today." />
+  <meta name="theme-color" content="#B23A24" />
+
+  <!-- Social sharing -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Abuela Latin Food" />
+  <meta property="og:title" content="Abuela Latin Food | Homemade Latin Catering" />
+  <meta property="og:description" content="Slow-cooked pernil, carne mechada & Latin lasagna — homemade Latin catering for your celebrations." />
+
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&family=Outfit:wght@300..700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <!-- SEO: Local business / caterer structured data. (Update email & Facebook if desired.) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FoodEstablishment",
+    "additionalType": "https://schema.org/CateringBusiness",
+    "name": "Abuela Latin Food",
+    "description": "Homemade Latin food catering — pernil, carne mechada and Latin lasagna for parties and events.",
+    "servesCuisine": ["Latin American", "Venezuelan", "Caribbean"],
+    "priceRange": "$$",
+    "telephone": "+1-647-972-6553",
+    "email": "hello@abuelalatinfood.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "268 White Pines Dr",
+      "addressLocality": "Burlington",
+      "addressRegion": "ON",
+      "postalCode": "L7L 4E7",
+      "addressCountry": "CA"
+    },
+    "areaServed": ["Burlington", "Oakville", "Hamilton", "Greater Toronto Area"],
+    "sameAs": ["https://www.instagram.com/abuelalatinfood/"]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" id="header">
+    <div class="container nav">
+      <a href="index.html" class="brand" aria-label="Abuela Latin Food home">
+        <img src="assets/logo.svg" alt="Abuela Latin Food" class="brand-logo" />
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="index.html" class="active">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="catering.html">Catering</a>
+        <a href="catering.html#faq">FAQ</a>
+      </nav>
+      <div class="nav-actions">
+        <a href="tel:+16479726553" class="nav-phone"><i class="fa-solid fa-phone"></i> (647) 972-6553</a>
+        <a href="catering.html#quote" class="btn btn--sm">Get a Quote</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu"><i class="fa-solid fa-bars"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ MOBILE DRAWER ============ -->
+  <div class="scrim" id="scrim"></div>
+  <aside class="mobile-drawer" id="drawer" aria-label="Mobile menu">
+    <div class="drawer-head">
+      <img src="assets/logo.svg" alt="Abuela Latin Food" style="height:46px" />
+      <button class="drawer-close" id="drawerClose" aria-label="Close menu"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <nav>
+      <a href="index.html" class="active">Home <i class="fa-solid fa-chevron-right"></i></a>
+      <a href="menu.html">Menu <i class="fa-solid fa-chevron-right"></i></a>
+      <a href="catering.html">Catering <i class="fa-solid fa-chevron-right"></i></a>
+      <a href="catering.html#faq">FAQ <i class="fa-solid fa-chevron-right"></i></a>
+    </nav>
+    <div class="drawer-cta">
+      <a href="catering.html#quote" class="btn btn--block">Get a Free Quote</a>
+      <a href="menu.html" class="btn btn--ghost btn--block">View the Menu</a>
+    </div>
+    <div class="drawer-contact">
+      <a href="tel:+16479726553"><i class="fa-solid fa-phone"></i> (647) 972-6553</a>
+      <a href="mailto:hello@abuelalatinfood.com"><i class="fa-solid fa-envelope"></i> hello@abuelalatinfood.com</a>
+      <a href="https://www.instagram.com/abuelalatinfood/" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i> @abuelalatinfood</a>
+    </div>
+  </aside>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="hero-glow g1"></div>
+    <div class="hero-glow g2"></div>
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <span class="hero-badge reveal"><span class="dot"></span> Homemade Latin catering · Made with love</span>
+        <h1 class="hero-title reveal d1">Latin food that tastes like <em class="text-grad">Abuela's</em> kitchen</h1>
+        <p class="hero-sub reveal d2">Slow-cooked <strong>pernil</strong>, tender <strong>carne mechada</strong>, and trays of homemade <strong>Latin lasagna</strong> — handcrafted for your parties and celebrations. Zero stress, all&nbsp;sabor.</p>
+        <div class="hero-ctas reveal d3">
+          <a href="catering.html#quote" class="btn btn--lg"><i class="fa-solid fa-utensils"></i> Get a Free Quote</a>
+          <a href="menu.html" class="btn btn--ghost btn--lg">Explore the Menu</a>
+        </div>
+        <div class="hero-meta reveal d4">
+          <div class="m"><b>100%</b><span>Homemade &amp; fresh</span></div>
+          <div class="divider"></div>
+          <div class="m"><b>12+</b><span>Latin dishes</span></div>
+          <div class="divider"></div>
+          <div class="m"><b>5★</b><span>Loved by guests</span></div>
+        </div>
+      </div>
+      <div class="hero-visual" id="heroVisual">
+        <div class="hero-ring" data-float="6"></div>
+        <img src="assets/dishes/party-tray.svg" alt="Latin catering party tray" class="hero-plate" data-float="16" />
+        <div class="hero-chip c1" data-float="26"><span class="emoji">🔥</span><div><b>Slow-cooked</b><small>Pernil &amp; carne mechada</small></div></div>
+        <div class="hero-chip c2" data-float="34"><i class="fa-solid fa-star" style="color:var(--amber)"></i><div><b>5.0 rating</b><small>From happy guests</small></div></div>
+        <div class="hero-chip c3" data-float="20"><i class="fa-solid fa-calendar-check"></i><div><b>Book your date</b><small>48h notice</small></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MARQUEE ============ -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span class="marquee-item">Pernil <i class="fa-solid fa-pepper-hot"></i></span>
+      <span class="marquee-item">Carne Mechada <i class="fa-solid fa-pepper-hot"></i></span>
+      <span class="marquee-item">Latin Lasagna <i class="fa-solid fa-pepper-hot"></i></span>
+      <span class="marquee-item">Empanadas <i class="fa-solid fa-pepper-hot"></i></span>
+      <span class="marquee-item">Arepas <i class="fa-solid fa-pepper-hot"></i></span>
+      <span class="marquee-item">Tres Leches <i class="fa-solid fa-pepper-hot"></i></span>
+      <!-- duplicate for seamless loop -->
+      <span class="marquee-item">Pernil <i class="fa-solid fa-pepper-hot"></i></span>
+      <span class="marquee-item">Carne Mechada <i class="fa-solid fa-pepper-hot"></i></span>
+      <span class="marquee-item">Latin Lasagna <i class="fa-solid fa-pepper-hot"></i></span>
+      <span class="marquee-item">Empanadas <i class="fa-solid fa-pepper-hot"></i></span>
+      <span class="marquee-item">Arepas <i class="fa-solid fa-pepper-hot"></i></span>
+      <span class="marquee-item">Tres Leches <i class="fa-solid fa-pepper-hot"></i></span>
+    </div>
+  </div>
+
+  <!-- ============ SIGNATURE DISHES ============ -->
+  <section class="section" id="signature">
+    <div class="container center">
+      <span class="eyebrow eyebrow--center reveal">The Favourites</span>
+      <h2 class="section-title reveal d1">Signature dishes, made <em>the slow way</em></h2>
+      <p class="section-lead reveal d2">Recipes passed down through the family — cooked low, seasoned deep, and served the way Abuela always did: generously.</p>
+    </div>
+    <div class="container">
+      <div class="dish-grid">
+        <article class="dish-card reveal d1">
+          <div class="dish-media"><span class="dish-tag">Bestseller</span><img src="assets/dishes/pernil.svg" alt="Pernil — slow-roasted pulled pork" /></div>
+          <h3 class="dish-name">Pernil</h3>
+          <p class="dish-es">Slow-roasted pulled pork</p>
+          <p class="dish-desc">Marinated overnight in garlic, citrus &amp; herbs, then roasted for hours until it falls apart. Crispy edges, juicy centre.</p>
+          <div class="dish-foot"><span class="pill"><i class="fa-solid fa-people-group"></i> Serves 8–10</span><span class="dish-price">$65 <small>/ tray</small></span></div>
+        </article>
+        <article class="dish-card reveal d2">
+          <div class="dish-media"><span class="dish-tag">Bestseller</span><img src="assets/dishes/carne-mechada.svg" alt="Carne mechada — shredded beef" /></div>
+          <h3 class="dish-name">Carne Mechada</h3>
+          <p class="dish-es">Slow-braised shredded beef</p>
+          <p class="dish-desc">Tender beef braised with peppers, onions &amp; tomato until melt-in-your-mouth. A true Latin comfort classic.</p>
+          <div class="dish-foot"><span class="pill"><i class="fa-solid fa-people-group"></i> Serves 8–10</span><span class="dish-price">$70 <small>/ tray</small></span></div>
+        </article>
+        <article class="dish-card reveal d3">
+          <div class="dish-media"><span class="dish-tag">Crowd favourite</span><img src="assets/dishes/pasticho.svg" alt="Pasticho — Latin lasagna" /></div>
+          <h3 class="dish-name">Latin Lasagna</h3>
+          <p class="dish-es">Pasticho</p>
+          <p class="dish-desc">Layers of pasta, rich meat ragù &amp; creamy béchamel, baked golden. The dish everyone asks to take home.</p>
+          <div class="dish-foot"><span class="pill"><i class="fa-solid fa-people-group"></i> Serves 10–12</span><span class="dish-price">$60 <small>/ tray</small></span></div>
+        </article>
+      </div>
+      <div class="center" style="margin-top:44px">
+        <a href="menu.html" class="btn btn--gold btn--lg reveal">See the full menu <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ STORY ============ -->
+  <section class="section section--tight" id="story">
+    <div class="container story-grid">
+      <div class="story-collage reveal-scale">
+        <img src="assets/dishes/arepa.svg" alt="Homemade arepa" class="story-plate-main" />
+        <div class="story-badge">
+          <i class="fa-solid fa-heart"></i>
+          <b>Since day one</b>
+          <span>Cooked in small batches, never mass-produced</span>
+        </div>
+      </div>
+      <div class="story-text">
+        <span class="eyebrow reveal">Our Story</span>
+        <h2 class="section-title reveal d1">From Abuela's kitchen <em>to your table</em></h2>
+        <p class="story-quote reveal d2">"Good food is love you can taste. That's how my grandmother cooked, and that's how we cook for you."</p>
+        <p class="reveal d2" style="color:var(--ink-soft)">Abuela Latin Food started with a simple idea: bring the warm, homemade flavours of Latin America to the celebrations that matter. Every tray is cooked fresh to order — no shortcuts, no factory kitchens, just real recipes and real care.</p>
+        <div class="story-features">
+          <div class="story-feature reveal d1"><span class="ic"><i class="fa-solid fa-mortar-pestle"></i></span><div><b>Family recipes</b><p>Authentic dishes passed down through generations.</p></div></div>
+          <div class="story-feature reveal d2"><span class="ic"><i class="fa-solid fa-leaf"></i></span><div><b>Fresh, made-to-order</b><p>Cooked in small batches the day of your event.</p></div></div>
+          <div class="story-feature reveal d3"><span class="ic"><i class="fa-solid fa-hand-holding-heart"></i></span><div><b>Catering made easy</b><p>We handle the food so you can enjoy the party.</p></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ HOW IT WORKS ============ -->
+  <section class="section" id="how">
+    <div class="container center">
+      <span class="eyebrow eyebrow--center reveal">How It Works</span>
+      <h2 class="section-title reveal d1">Catering, <em>without the stress</em></h2>
+      <p class="section-lead reveal d2">Four easy steps from craving to celebration.</p>
+    </div>
+    <div class="container">
+      <div class="steps">
+        <div class="step reveal d1"><div class="step-num">1</div><i class="fa-solid fa-comments step-ic"></i><h3>Tell us your plans</h3><p>Share your date, guest count &amp; the vibe of your event.</p></div>
+        <div class="step reveal d2"><div class="step-num">2</div><i class="fa-solid fa-list-check step-ic"></i><h3>Build your menu</h3><p>Pick your dishes and trays — we'll help you choose.</p></div>
+        <div class="step reveal d3"><div class="step-num">3</div><i class="fa-solid fa-fire-burner step-ic"></i><h3>We cook fresh</h3><p>Everything is prepared homemade on the day.</p></div>
+        <div class="step reveal d4"><div class="step-num">4</div><i class="fa-solid fa-face-grin-stars step-ic"></i><h3>Enjoy &amp; impress</h3><p>Serve up sabor and soak in the compliments.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ STATS ============ -->
+  <section class="section--tight">
+    <div class="container">
+      <div class="stats">
+        <div class="stat reveal d1"><b><span data-count="100">0</span><span class="suffix">%</span></b><span>Homemade &amp; fresh</span></div>
+        <div class="stat reveal d2"><b><span data-count="48">0</span><span class="suffix">h</span></b><span>Minimum notice</span></div>
+        <div class="stat reveal d3"><b><span data-count="12">0</span><span class="suffix">+</span></b><span>Latin dishes</span></div>
+        <div class="stat reveal d4"><b><span data-count="5.0">0</span><span class="suffix">★</span></b><span>Guest rating</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIALS ============ -->
+  <section class="section testimonials" id="reviews">
+    <div class="container center">
+      <span class="eyebrow eyebrow--center reveal">Kind Words</span>
+      <h2 class="section-title reveal d1">Guests can't stop <em>raving</em></h2>
+    </div>
+    <div class="container">
+      <div class="tst-viewport">
+        <div class="tst-track" id="tstTrack">
+          <div class="tst-slide"><div class="tst-card">
+            <span class="quote-mark">&ldquo;</span>
+            <div class="tst-stars">★★★★★</div>
+            <p class="tst-text">The pernil disappeared in minutes. Everyone at my daughter's birthday asked who catered — it tasted exactly like my abuela's cooking back home.</p>
+            <div class="tst-author"><div class="tst-avatar">MR</div><div class="who"><b>María R.</b><span>Birthday party · 40 guests</span></div></div>
+          </div></div>
+          <div class="tst-slide"><div class="tst-card">
+            <span class="quote-mark">&ldquo;</span>
+            <div class="tst-stars">★★★★★</div>
+            <p class="tst-text">Booked the Latin lasagna and carne mechada for our office lunch. Fresh, generous portions, and delivered right on time. We're already booking again.</p>
+            <div class="tst-author"><div class="tst-avatar">JT</div><div class="who"><b>Jason T.</b><span>Corporate event · 60 guests</span></div></div>
+          </div></div>
+          <div class="tst-slide"><div class="tst-card">
+            <span class="quote-mark">&ldquo;</span>
+            <div class="tst-stars">★★★★★</div>
+            <p class="tst-text">From the first message to the last empanada, everything was easy and warm. You can taste that it's made with love. Highly recommend for any celebration.</p>
+            <div class="tst-author"><div class="tst-avatar">CL</div><div class="who"><b>Carolina L.</b><span>Family reunion · 25 guests</span></div></div>
+          </div></div>
+        </div>
+      </div>
+      <div class="tst-controls">
+        <button class="tst-arrow" id="tstPrev" aria-label="Previous review"><i class="fa-solid fa-arrow-left"></i></button>
+        <div class="tst-dots" id="tstDots"></div>
+        <button class="tst-arrow" id="tstNext" aria-label="Next review"><i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ GALLERY ============ -->
+  <section class="section" id="gallery">
+    <div class="container center">
+      <span class="eyebrow eyebrow--center reveal">Feast Your Eyes</span>
+      <h2 class="section-title reveal d1">A little taste of <em>the table</em></h2>
+      <p class="section-lead reveal d2">Tap a dish to take a closer look.</p>
+    </div>
+    <div class="container">
+      <div class="gallery reveal">
+        <div class="gal-item tall" data-cap="Pernil — slow-roasted pulled pork"><img src="assets/dishes/pernil.svg" alt="Pernil" /><span class="gal-cap">Pernil</span></div>
+        <div class="gal-item" data-cap="Carne mechada — shredded beef"><img src="assets/dishes/carne-mechada.svg" alt="Carne mechada" /><span class="gal-cap">Carne Mechada</span></div>
+        <div class="gal-item" data-cap="Empanadas — golden hand pies"><img src="assets/dishes/empanadas.svg" alt="Empanadas" /><span class="gal-cap">Empanadas</span></div>
+        <div class="gal-item wide" data-cap="Latin lasagna — pasticho"><img src="assets/dishes/pasticho.svg" alt="Latin lasagna" /><span class="gal-cap">Latin Lasagna</span></div>
+        <div class="gal-item" data-cap="Arepas — stuffed corn cakes"><img src="assets/dishes/arepa.svg" alt="Arepa" /><span class="gal-cap">Arepas</span></div>
+        <div class="gal-item" data-cap="Tres leches — soaked sponge cake"><img src="assets/dishes/tres-leches.svg" alt="Tres leches" /><span class="gal-cap">Tres Leches</span></div>
+        <div class="gal-item" data-cap="Catering party trays"><img src="assets/dishes/party-tray.svg" alt="Party tray" /><span class="gal-cap">Party Trays</span></div>
+      </div>
+      <div class="center" style="margin-top:34px">
+        <a href="https://www.instagram.com/abuelalatinfood/" target="_blank" rel="noopener" class="btn btn--ghost reveal"><i class="fa-brands fa-instagram"></i> Follow @abuelalatinfood</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA ============ -->
+  <section class="section">
+    <div class="container">
+      <div class="cta-band reveal-scale">
+        <div class="papel papel--gold" style="justify-content:center;margin-bottom:20px">
+          <svg viewBox="0 0 120 80"><use href="#pp"/></svg>
+        </div>
+        <h2>Planning a party? Let Abuela cook.</h2>
+        <p>Tell us about your event and get a friendly, no-obligation quote within 24 hours. Dates fill up fast — reserve yours today.</p>
+        <div class="hero-ctas">
+          <a href="catering.html#quote" class="btn btn--white btn--lg"><i class="fa-solid fa-utensils"></i> Request Your Quote</a>
+          <a href="https://wa.me/16479726553" target="_blank" rel="noopener" class="btn btn--gold btn--lg"><i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- inline papel picado sprite -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><g id="pp">
+    <path d="M0 0 H120 V6 H0 Z" fill="currentColor"/>
+    <path d="M4 6 H56 L52 46 Q30 60 8 46 Z" fill="currentColor"/>
+    <path d="M64 6 H116 L112 46 Q90 60 68 46 Z" fill="currentColor"/>
+    <circle cx="30" cy="24" r="7" fill="#B23A24"/><circle cx="30" cy="24" r="3" fill="currentColor"/>
+    <circle cx="18" cy="38" r="3" fill="#B23A24"/><circle cx="42" cy="38" r="3" fill="#B23A24"/>
+    <circle cx="90" cy="24" r="7" fill="#B23A24"/><circle cx="90" cy="24" r="3" fill="currentColor"/>
+    <circle cx="78" cy="38" r="3" fill="#B23A24"/><circle cx="102" cy="38" r="3" fill="#B23A24"/>
+  </g></defs></svg>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="assets/logo.svg" alt="Abuela Latin Food" class="logo-invert" />
+          <p>Homemade Latin food catering for the celebrations that matter. Slow-cooked, small-batch, and always made with love.</p>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/abuelalatinfood/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.me/16479726553" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="mailto:hello@abuelalatinfood.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+          </div>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="menu.html">Full Menu</a>
+            <a href="catering.html">Catering &amp; Events</a>
+            <a href="catering.html#faq">FAQ</a>
+          </div>
+        </div>
+        <div>
+          <h4>Popular</h4>
+          <div class="footer-links">
+            <a href="menu.html">Pernil</a>
+            <a href="menu.html">Carne Mechada</a>
+            <a href="menu.html">Latin Lasagna</a>
+            <a href="menu.html">Party Trays</a>
+          </div>
+        </div>
+        <div>
+          <h4>Get in Touch</h4>
+          <div class="footer-contact">
+            <a href="tel:+16479726553"><i class="fa-solid fa-phone"></i> (647) 972-6553</a>
+            <a href="mailto:hello@abuelalatinfood.com"><i class="fa-solid fa-envelope"></i> hello@abuelalatinfood.com</a>
+            <span><i class="fa-solid fa-location-dot"></i> 268 White Pines Dr, Burlington, ON L7L 4E7</span>
+            <span><i class="fa-solid fa-clock"></i> Orders: 48 hours' notice</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> Abuela Latin Food. Made with <i class="fa-solid fa-heart" style="color:var(--brick)"></i> &amp; sabor.</span>
+        <span>Homemade Latin catering · Pernil · Carne Mechada · Pasticho</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ LIGHTBOX ============ -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lbClose" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+    <button class="lightbox-nav prev" id="lbPrev" aria-label="Previous"><i class="fa-solid fa-chevron-left"></i></button>
+    <button class="lightbox-nav next" id="lbNext" aria-label="Next"><i class="fa-solid fa-chevron-right"></i></button>
+    <div>
+      <img id="lbImg" src="assets/dishes/pernil.svg" alt="" />
+      <div class="lightbox-cap" id="lbCap"></div>
+    </div>
+  </div>
+
+  <!-- ============ FLOATING ACTIONS ============ -->
+  <a href="https://wa.me/16479726553" target="_blank" rel="noopener" class="fab-wa" aria-label="Chat on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+  <button class="to-top" id="toTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

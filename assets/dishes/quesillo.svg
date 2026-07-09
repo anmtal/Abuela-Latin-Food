@@ -1,0 +1,20 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Quesillo flan illustration">
+  <circle cx="100" cy="104" r="86" fill="#000" opacity="0.06"/>
+  <circle cx="100" cy="100" r="86" fill="#FFFBF3"/>
+  <circle cx="100" cy="100" r="86" fill="none" stroke="#EADFC6" stroke-width="4"/>
+  <circle cx="100" cy="100" r="72" fill="none" stroke="#F0E6D0" stroke-width="2"/>
+  <!-- caramel pool -->
+  <ellipse cx="100" cy="128" rx="62" ry="22" fill="#9C5A22"/>
+  <ellipse cx="100" cy="126" rx="62" ry="22" fill="#B87332"/>
+  <!-- flan body -->
+  <path d="M52 108 a48 20 0 0 0 96 0 l0 -26 a48 20 0 0 0 -96 0 z" fill="#F6D488"/>
+  <path d="M52 82 a48 20 0 0 0 96 0 a48 20 0 0 0 -96 0 z" fill="#FCE4A9"/>
+  <path d="M52 82 a48 20 0 0 0 96 0" fill="none" stroke="#E8C376" stroke-width="2"/>
+  <!-- caramel drip -->
+  <path d="M100 62 q-40 0 -46 20 q10 -10 22 -8 q6 -8 24 -8 q18 0 24 8 q12 -2 22 8 q-6 -20 -46 -20 z" fill="#C98A3E" opacity="0.85"/>
+  <!-- shine -->
+  <ellipse cx="80" cy="76" rx="14" ry="5" fill="#FFF3D6" opacity="0.7"/>
+  <!-- mint + berry -->
+  <path d="M100 58 q10 -6 14 2 q-8 6 -14 -2 z" fill="#4F7A2E"/>
+  <circle cx="112" cy="60" r="5" fill="#C7362B"/>
+</svg>

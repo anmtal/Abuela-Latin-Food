@@ -1,0 +1,27 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Tres leches cake illustration">
+  <circle cx="100" cy="104" r="86" fill="#000" opacity="0.06"/>
+  <circle cx="100" cy="100" r="86" fill="#FFFBF3"/>
+  <circle cx="100" cy="100" r="86" fill="none" stroke="#EADFC6" stroke-width="4"/>
+  <circle cx="100" cy="100" r="72" fill="none" stroke="#F0E6D0" stroke-width="2"/>
+  <!-- cake slice block -->
+  <g>
+    <path d="M60 84 l44 -16 l40 16 l-44 16 z" fill="#FFF7E9"/>
+    <path d="M60 84 l44 16 l0 40 l-44 -16 z" fill="#F4E6C7"/>
+    <path d="M104 100 l40 -16 l0 40 l-40 16 z" fill="#E9D6AE"/>
+    <!-- soaked layers -->
+    <g opacity="0.6">
+      <path d="M60 98 l44 16 l0 5 l-44 -16 z" fill="#E7C98B"/>
+      <path d="M60 110 l44 16 l0 5 l-44 -16 z" fill="#E7C98B"/>
+    </g>
+    <!-- cream top -->
+    <path d="M60 84 l44 -16 l40 16 q-4 8 -18 6 q-6 8 -18 2 q-8 6 -18 -2 q-12 4 -12 -6 z" fill="#FFFDF8"/>
+  </g>
+  <!-- cinnamon dust -->
+  <g fill="#B87A3C" opacity="0.8"><circle cx="86" cy="74" r="1.6"/><circle cx="98" cy="70" r="1.4"/><circle cx="110" cy="74" r="1.6"/><circle cx="120" cy="80" r="1.3"/><circle cx="92" cy="78" r="1.2"/></g>
+  <!-- strawberry -->
+  <path d="M118 70 q10 -2 12 8 q-2 10 -12 10 q-10 0 -12 -10 q2 -10 12 -8 z" fill="#C7362B"/>
+  <path d="M110 68 q8 -6 16 0 q-4 4 -8 3 q-4 1 -8 -3 z" fill="#5E7A2E"/>
+  <g fill="#F7D9C0"><circle cx="115" cy="80" r="1"/><circle cx="122" cy="82" r="1"/><circle cx="119" cy="86" r="1"/></g>
+  <!-- mint -->
+  <path d="M78 108 q10 -6 14 2 q-8 6 -14 -2 z" fill="#4F7A2E"/>
+</svg>

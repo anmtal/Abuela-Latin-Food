@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catering &amp; Events | Abuela Latin Food — Get a Free Quote</title>
+  <meta name="description" content="Homemade Latin catering for birthdays, weddings, corporate events and family gatherings. Choose a package, build your menu, and get a free quote in 24 hours." />
+  <meta name="theme-color" content="#B23A24" />
+  <meta property="og:title" content="Catering &amp; Events | Abuela Latin Food" />
+  <meta property="og:description" content="Latin catering packages for every celebration. Build your menu and get a free quote fast." />
+
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&family=Outfit:wght@300..700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "How much notice do you need?", "acceptedAnswer": { "@type": "Answer", "text": "We ask for at least 48 hours' notice. For larger events or weekends, a week or more is ideal so we can reserve your date." } },
+      { "@type": "Question", "name": "Is there a minimum order?", "acceptedAnswer": { "@type": "Answer", "text": "Most catering orders start at around 10 guests. Reach out and we'll happily tailor something to your group size." } },
+      { "@type": "Question", "name": "Do you deliver?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — we deliver hot, ready-to-serve trays across Burlington, Oakville and the wider GTA. Delivery fees depend on distance and order size." } },
+      { "@type": "Question", "name": "Can you handle dietary needs?", "acceptedAnswer": { "@type": "Answer", "text": "Absolutely. We offer vegetarian, vegan and gluten-free options, and can adjust recipes for common allergies — just tell us in your request." } }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" id="header">
+    <div class="container nav">
+      <a href="index.html" class="brand" aria-label="Abuela Latin Food home"><img src="assets/logo.svg" alt="Abuela Latin Food" class="brand-logo" /></a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="catering.html" class="active">Catering</a>
+        <a href="catering.html#faq">FAQ</a>
+      </nav>
+      <div class="nav-actions">
+        <a href="tel:+16479726553" class="nav-phone"><i class="fa-solid fa-phone"></i> (647) 972-6553</a>
+        <a href="#quote" class="btn btn--sm">Get a Quote</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu"><i class="fa-solid fa-bars"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ MOBILE DRAWER ============ -->
+  <div class="scrim" id="scrim"></div>
+  <aside class="mobile-drawer" id="drawer" aria-label="Mobile menu">
+    <div class="drawer-head">
+      <img src="assets/logo.svg" alt="Abuela Latin Food" style="height:46px" />
+      <button class="drawer-close" id="drawerClose" aria-label="Close menu"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <nav>
+      <a href="index.html">Home <i class="fa-solid fa-chevron-right"></i></a>
+      <a href="menu.html">Menu <i class="fa-solid fa-chevron-right"></i></a>
+      <a href="catering.html" class="active">Catering <i class="fa-solid fa-chevron-right"></i></a>
+      <a href="catering.html#faq">FAQ <i class="fa-solid fa-chevron-right"></i></a>
+    </nav>
+    <div class="drawer-cta">
+      <a href="#quote" class="btn btn--block">Get a Free Quote</a>
+      <a href="menu.html" class="btn btn--ghost btn--block">View the Menu</a>
+    </div>
+    <div class="drawer-contact">
+      <a href="tel:+16479726553"><i class="fa-solid fa-phone"></i> (647) 972-6553</a>
+      <a href="mailto:hello@abuelalatinfood.com"><i class="fa-solid fa-envelope"></i> hello@abuelalatinfood.com</a>
+      <a href="https://www.instagram.com/abuelalatinfood/" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i> @abuelalatinfood</a>
+    </div>
+  </aside>
+
+  <!-- ============ PAGE HERO ============ -->
+  <section class="page-hero">
+    <div class="hero-glow g1"></div>
+    <div class="hero-glow g2"></div>
+    <div class="container">
+      <div class="breadcrumbs reveal"><a href="index.html">Home</a> <span>/</span> <span>Catering</span></div>
+      <span class="eyebrow eyebrow--center reveal d1" style="margin-top:14px">Catering &amp; Events</span>
+      <h1 class="reveal d1">Let Abuela cook for <span class="text-grad">your celebration</span></h1>
+      <p class="reveal d2">From intimate family dinners to weddings and office parties — we bring the flavour, you take the credit. Pick a package, build your menu, and get a friendly quote within 24 hours.</p>
+      <div class="hero-ctas reveal d3" style="justify-content:center;margin-top:26px">
+        <a href="#quote" class="btn btn--lg"><i class="fa-solid fa-file-invoice"></i> Build Your Quote</a>
+        <a href="#packages" class="btn btn--ghost btn--lg">See Packages</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PACKAGES ============ -->
+  <section class="section" id="packages" style="padding-top:20px">
+    <div class="container center">
+      <span class="eyebrow eyebrow--center reveal">Catering Packages</span>
+      <h2 class="section-title reveal d1">Pick your <em>perfect spread</em></h2>
+      <p class="section-lead reveal d2">Per-person pricing that scales with your guest count. Every package is fully customizable — these are just starting points.</p>
+    </div>
+    <div class="container">
+      <div class="pkg-grid">
+        <article class="pkg reveal d1">
+          <div class="pkg-name">Family Feast</div>
+          <div class="pkg-for">Casual get-togethers &amp; weeknight parties</div>
+          <div class="pkg-price"><span class="cur">from $</span><b>17</b><span>/ guest</span></div>
+          <ul class="pkg-list">
+            <li><i class="fa-solid fa-check"></i> Choose <strong>1 signature main</strong></li>
+            <li><i class="fa-solid fa-check"></i> Rice &amp; black beans</li>
+            <li><i class="fa-solid fa-check"></i> 1 side of your choice</li>
+            <li><i class="fa-solid fa-check"></i> Serving trays &amp; utensils</li>
+            <li><i class="fa-solid fa-check"></i> Delivery available</li>
+          </ul>
+          <a href="#quote" class="btn btn--ghost btn--block" data-pkg="family">Choose Family Feast</a>
+        </article>
+
+        <article class="pkg featured reveal d2">
+          <div class="pkg-flag">★ Most Popular</div>
+          <div class="pkg-name">Fiesta Package</div>
+          <div class="pkg-for">Birthdays, showers &amp; big celebrations</div>
+          <div class="pkg-price"><span class="cur">from $</span><b>25</b><span>/ guest</span></div>
+          <ul class="pkg-list">
+            <li><i class="fa-solid fa-check"></i> Choose <strong>2 signature mains</strong></li>
+            <li><i class="fa-solid fa-check"></i> Empanadas starter</li>
+            <li><i class="fa-solid fa-check"></i> Rice, beans &amp; 2 sides</li>
+            <li><i class="fa-solid fa-check"></i> Dessert tray included</li>
+            <li><i class="fa-solid fa-check"></i> Full setup &amp; serving trays</li>
+          </ul>
+          <a href="#quote" class="btn btn--white btn--block" data-pkg="fiesta">Choose Fiesta</a>
+        </article>
+
+        <article class="pkg reveal d3">
+          <div class="pkg-name">Grand Celebration</div>
+          <div class="pkg-for">Weddings, corporate &amp; large events</div>
+          <div class="pkg-price"><span class="cur">from $</span><b>33</b><span>/ guest</span></div>
+          <ul class="pkg-list">
+            <li><i class="fa-solid fa-check"></i> Choose <strong>3 signature mains</strong></li>
+            <li><i class="fa-solid fa-check"></i> Empanadas &amp; arepas platter</li>
+            <li><i class="fa-solid fa-check"></i> Rice, beans &amp; 3 sides</li>
+            <li><i class="fa-solid fa-check"></i> Dessert selection</li>
+            <li><i class="fa-solid fa-check"></i> On-site setup &amp; service</li>
+          </ul>
+          <a href="#quote" class="btn btn--ghost btn--block" data-pkg="grand">Choose Grand</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EVENT TYPES ============ -->
+  <section class="section section--tight">
+    <div class="container center">
+      <span class="eyebrow eyebrow--center reveal">Occasions</span>
+      <h2 class="section-title reveal d1">We cater <em>every kind</em> of gathering</h2>
+    </div>
+    <div class="container">
+      <div class="events">
+        <div class="event reveal d1"><div class="ic"><i class="fa-solid fa-cake-candles"></i></div><h3>Birthdays</h3><p>Make the guest of honour's day unforgettable.</p></div>
+        <div class="event reveal d2"><div class="ic"><i class="fa-solid fa-ring"></i></div><h3>Weddings</h3><p>A shared table full of flavour and love.</p></div>
+        <div class="event reveal d3"><div class="ic"><i class="fa-solid fa-briefcase"></i></div><h3>Corporate</h3><p>Office lunches &amp; team events that impress.</p></div>
+        <div class="event reveal d4"><div class="ic"><i class="fa-solid fa-house-chimney-window"></i></div><h3>Family Gatherings</h3><p>Reunions, holidays &amp; Sunday feasts.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ QUOTE FORM ============ -->
+  <section class="section" id="quote">
+    <div class="container">
+      <div class="quote-wrap">
+        <!-- side -->
+        <div class="quote-side reveal">
+          <div class="papel papel--gold" style="margin-bottom:22px"><svg viewBox="0 0 120 80"><use href="#pp"/></svg></div>
+          <h2>Build your quote in 60 seconds</h2>
+          <p>Answer a few quick questions and we'll get back to you with a personalized quote — no obligation, no pressure.</p>
+          <div class="quote-benefits">
+            <div class="quote-benefit"><i class="fa-solid fa-bolt"></i><div><b>Fast reply</b><span>A friendly quote within 24 hours.</span></div></div>
+            <div class="quote-benefit"><i class="fa-solid fa-wand-magic-sparkles"></i><div><b>Fully customizable</b><span>Mix mains, sides &amp; dietary needs.</span></div></div>
+            <div class="quote-benefit"><i class="fa-solid fa-hand-holding-dollar"></i><div><b>No surprises</b><span>Transparent per-person pricing.</span></div></div>
+          </div>
+          <div class="quote-live">
+            <div class="quote-live-card">
+              <div class="label">Your estimate</div>
+              <div class="est" id="estAmount">—</div>
+              <small>≈ <span id="estTrays">4</span> party trays · <span id="guestVal">40</span> guests · sample pricing</small>
+            </div>
+          </div>
+        </div>
+
+        <!-- form -->
+        <div class="quote-form reveal d1">
+          <form id="quoteForm" novalidate>
+            <div class="form-body">
+              <div class="stepper">
+                <div class="st active"><span class="n">1</span><span class="t">Event</span><span class="bar"></span></div>
+                <div class="st"><span class="n">2</span><span class="t">Menu</span><span class="bar"></span></div>
+                <div class="st"><span class="n">3</span><span class="t">Details</span></div>
+              </div>
+
+              <!-- STEP 1 -->
+              <div class="fstep active">
+                <div class="field">
+                  <label>What are you celebrating? <span class="req">*</span></label>
+                  <div class="chip-select">
+                    <label class="chip-opt"><input type="radio" name="eventType" value="Birthday" /><span><i class="fa-solid fa-cake-candles"></i> Birthday</span></label>
+                    <label class="chip-opt"><input type="radio" name="eventType" value="Wedding" /><span><i class="fa-solid fa-ring"></i> Wedding</span></label>
+                    <label class="chip-opt"><input type="radio" name="eventType" value="Corporate" /><span><i class="fa-solid fa-briefcase"></i> Corporate</span></label>
+                    <label class="chip-opt"><input type="radio" name="eventType" value="Family gathering" /><span><i class="fa-solid fa-house"></i> Family</span></label>
+                    <label class="chip-opt"><input type="radio" name="eventType" value="Other" /><span><i class="fa-solid fa-star"></i> Other</span></label>
+                  </div>
+                </div>
+                <div class="field">
+                  <label for="eventDate">Event date</label>
+                  <input type="date" id="eventDate" name="eventDate" />
+                </div>
+                <div class="field">
+                  <label for="guests">How many guests?</label>
+                  <div class="range-wrap">
+                    <div class="range-head"><span style="color:var(--ink-soft);font-size:.9rem">Slide to set headcount</span><span class="range-val"><span id="guestValLabel">40</span> <span>guests</span></span></div>
+                    <input type="range" id="guests" name="guests" min="10" max="200" step="5" value="40" />
+                    <div class="range-scale"><span>10</span><span>100</span><span>200+</span></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- STEP 2 -->
+              <div class="fstep">
+                <div class="field">
+                  <label>Which package fits best?</label>
+                  <div class="chip-select">
+                    <label class="chip-opt"><input type="radio" name="pkg" value="family" /><span>Family Feast · $17</span></label>
+                    <label class="chip-opt"><input type="radio" name="pkg" value="fiesta" checked /><span>Fiesta · $25</span></label>
+                    <label class="chip-opt"><input type="radio" name="pkg" value="grand" /><span>Grand · $33</span></label>
+                  </div>
+                </div>
+                <div class="field">
+                  <label>Dishes you're craving <span style="color:var(--ink-soft);font-weight:500">(pick any)</span></label>
+                  <div class="chip-select">
+                    <label class="chip-opt"><input type="checkbox" name="dishes" value="Pernil" /><span>Pernil</span></label>
+                    <label class="chip-opt"><input type="checkbox" name="dishes" value="Carne Mechada" /><span>Carne Mechada</span></label>
+                    <label class="chip-opt"><input type="checkbox" name="dishes" value="Latin Lasagna" /><span>Latin Lasagna</span></label>
+                    <label class="chip-opt"><input type="checkbox" name="dishes" value="Empanadas" /><span>Empanadas</span></label>
+                    <label class="chip-opt"><input type="checkbox" name="dishes" value="Arepas" /><span>Arepas</span></label>
+                    <label class="chip-opt"><input type="checkbox" name="dishes" value="Sides" /><span>Rice &amp; Sides</span></label>
+                    <label class="chip-opt"><input type="checkbox" name="dishes" value="Dessert" /><span>Dessert</span></label>
+                  </div>
+                </div>
+                <div class="field">
+                  <label for="notes">Anything special? <span style="color:var(--ink-soft);font-weight:500">(allergies, theme, dietary needs)</span></label>
+                  <textarea id="notes" name="message" placeholder="e.g. 2 guests are vegetarian, and we'd love a birthday dessert…"></textarea>
+                </div>
+              </div>
+
+              <!-- STEP 3 -->
+              <div class="fstep">
+                <div class="field-row">
+                  <div class="field"><label for="name">Your name <span class="req">*</span></label><input type="text" id="name" name="name" required placeholder="Full name" /></div>
+                  <div class="field"><label for="phone">Phone</label><input type="tel" id="phone" name="phone" placeholder="(647) 972-6553" /></div>
+                </div>
+                <div class="field">
+                  <label for="email">Email <span class="req">*</span></label>
+                  <input type="email" id="email" name="email" required placeholder="you@email.com" />
+                </div>
+                <!-- honeypot -->
+                <input type="text" class="hp" name="companyWebsite" tabindex="-1" autocomplete="off" aria-hidden="true" />
+                <p style="font-size:.86rem;color:var(--ink-soft);margin-top:6px"><i class="fa-solid fa-lock" style="color:var(--olive)"></i> Your details stay private — we only use them to send your quote.</p>
+              </div>
+
+              <div class="form-nav">
+                <button type="button" class="btn btn--ghost hidden" id="fBack"><i class="fa-solid fa-arrow-left"></i> Back</button>
+                <button type="button" class="btn" id="fNext">Continue <i class="fa-solid fa-arrow-right"></i></button>
+                <button type="submit" class="btn btn--gold" id="fSubmit" style="display:none"><i class="fa-solid fa-paper-plane"></i> Send My Request</button>
+              </div>
+            </div>
+
+            <!-- SUCCESS -->
+            <div class="form-success" id="formSuccess">
+              <div class="check"><i class="fa-solid fa-check"></i></div>
+              <h3>¡Gracias! Your request is ready</h3>
+              <p>One last step — confirm on WhatsApp so Abuela receives your details instantly and can reply with your quote.</p>
+              <div class="hero-ctas" style="justify-content:center">
+                <a href="#" id="successWa" target="_blank" rel="noopener" class="btn btn--lg"><i class="fa-brands fa-whatsapp"></i> Confirm on WhatsApp</a>
+                <a href="mailto:hello@abuelalatinfood.com" class="btn btn--ghost btn--lg"><i class="fa-solid fa-envelope"></i> Email instead</a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="section section--tight" id="faq">
+    <div class="container center">
+      <span class="eyebrow eyebrow--center reveal">Good to Know</span>
+      <h2 class="section-title reveal d1">Frequently asked <em>questions</em></h2>
+    </div>
+    <div class="container">
+      <div class="faq">
+        <div class="faq-item reveal">
+          <button class="faq-q">How much notice do you need? <span class="ic"><i class="fa-solid fa-plus"></i></span></button>
+          <div class="faq-a"><p>We ask for at least <strong>48 hours' notice</strong>. For larger events or weekend dates, a week or more is ideal so we can reserve your spot and shop for the freshest ingredients.</p></div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-q">Is there a minimum order? <span class="ic"><i class="fa-solid fa-plus"></i></span></button>
+          <div class="faq-a"><p>Most catering orders start at around <strong>10 guests</strong>, but we love small gatherings too. Send us your details and we'll tailor something that fits your group.</p></div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-q">Do you deliver and set up? <span class="ic"><i class="fa-solid fa-plus"></i></span></button>
+          <div class="faq-a"><p>Yes! We deliver hot, ready-to-serve trays across Burlington, Oakville and the wider GTA. Setup and on-site serving are included with our larger packages, and available as an add-on for the rest.</p></div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-q">Can you handle allergies &amp; dietary needs? <span class="ic"><i class="fa-solid fa-plus"></i></span></button>
+          <div class="faq-a"><p>Absolutely. We offer <strong>vegetarian, vegan and gluten-free</strong> options and can adapt many recipes for common allergies. Just note it in your request and we'll take care of the rest.</p></div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-q">How does payment work? <span class="ic"><i class="fa-solid fa-plus"></i></span></button>
+          <div class="faq-a"><p>Once your menu is confirmed we'll send a simple invoice. A small deposit secures your date, with the balance due before or on the day of your event. We accept e-transfer and major cards.</p></div>
+        </div>
+        <div class="faq-item reveal">
+          <button class="faq-q">What areas do you serve? <span class="ic"><i class="fa-solid fa-plus"></i></span></button>
+          <div class="faq-a"><p>Based in <strong>Burlington</strong>, we proudly serve <strong>Oakville, Hamilton and the wider GTA</strong>. Outside the area? Ask us — we may still be able to make it work for larger events.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section section--tight">
+    <div class="container center">
+      <span class="eyebrow eyebrow--center reveal">Reach Us</span>
+      <h2 class="section-title reveal d1">Prefer to just <em>say hola?</em></h2>
+      <p class="section-lead reveal d2">However you like to chat, we're happy to help plan your event.</p>
+    </div>
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-card reveal d1"><div class="ic"><i class="fa-brands fa-whatsapp"></i></div><h3>WhatsApp</h3><p>Fastest way to reach us</p><a href="https://wa.me/16479726553" target="_blank" rel="noopener">Message us →</a></div>
+        <div class="contact-card reveal d2"><div class="ic"><i class="fa-solid fa-phone"></i></div><h3>Call or Text</h3><p>We'd love to hear from you</p><a href="tel:+16479726553">(647) 972-6553</a></div>
+        <div class="contact-card reveal d3"><div class="ic"><i class="fa-solid fa-envelope"></i></div><h3>Email</h3><p>For detailed requests</p><a href="mailto:hello@abuelalatinfood.com">hello@abuelalatinfood.com</a></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- inline papel picado sprite -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><g id="pp">
+    <path d="M0 0 H120 V6 H0 Z" fill="currentColor"/>
+    <path d="M4 6 H56 L52 46 Q30 60 8 46 Z" fill="currentColor"/>
+    <path d="M64 6 H116 L112 46 Q90 60 68 46 Z" fill="currentColor"/>
+    <circle cx="30" cy="24" r="7" fill="#7C2414"/><circle cx="30" cy="24" r="3" fill="currentColor"/>
+    <circle cx="18" cy="38" r="3" fill="#7C2414"/><circle cx="42" cy="38" r="3" fill="#7C2414"/>
+    <circle cx="90" cy="24" r="7" fill="#7C2414"/><circle cx="90" cy="24" r="3" fill="currentColor"/>
+    <circle cx="78" cy="38" r="3" fill="#7C2414"/><circle cx="102" cy="38" r="3" fill="#7C2414"/>
+  </g></defs></svg>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="assets/logo.svg" alt="Abuela Latin Food" class="logo-invert" />
+          <p>Homemade Latin food catering for the celebrations that matter. Slow-cooked, small-batch, and always made with love.</p>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/abuelalatinfood/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.me/16479726553" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="mailto:hello@abuelalatinfood.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+          </div>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <div class="footer-links">
+            <a href="index.html">Home</a><a href="menu.html">Full Menu</a><a href="catering.html">Catering &amp; Events</a><a href="catering.html#faq">FAQ</a>
+          </div>
+        </div>
+        <div>
+          <h4>Popular</h4>
+          <div class="footer-links">
+            <a href="menu.html">Pernil</a><a href="menu.html">Carne Mechada</a><a href="menu.html">Latin Lasagna</a><a href="menu.html">Party Trays</a>
+          </div>
+        </div>
+        <div>
+          <h4>Get in Touch</h4>
+          <div class="footer-contact">
+            <a href="tel:+16479726553"><i class="fa-solid fa-phone"></i> (647) 972-6553</a>
+            <a href="mailto:hello@abuelalatinfood.com"><i class="fa-solid fa-envelope"></i> hello@abuelalatinfood.com</a>
+            <span><i class="fa-solid fa-location-dot"></i> 268 White Pines Dr, Burlington, ON L7L 4E7</span>
+            <span><i class="fa-solid fa-clock"></i> Orders: 48 hours' notice</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> Abuela Latin Food. Made with <i class="fa-solid fa-heart" style="color:var(--brick)"></i> &amp; sabor.</span>
+        <span>Homemade Latin catering · Pernil · Carne Mechada · Pasticho</span>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/16479726553" target="_blank" rel="noopener" class="fab-wa" aria-label="Chat on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+  <button class="to-top" id="toTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

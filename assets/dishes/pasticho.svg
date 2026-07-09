@@ -1,0 +1,36 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Latin lasagna (pasticho) plate illustration">
+  <circle cx="100" cy="104" r="86" fill="#000" opacity="0.06"/>
+  <circle cx="100" cy="100" r="86" fill="#FFFBF3"/>
+  <circle cx="100" cy="100" r="86" fill="none" stroke="#EADFC6" stroke-width="4"/>
+  <circle cx="100" cy="100" r="72" fill="none" stroke="#F0E6D0" stroke-width="2"/>
+  <!-- lasagna slice (isometric-ish block) -->
+  <g>
+    <!-- top cheese -->
+    <path d="M62 78 l50 -14 l38 20 l-50 14 z" fill="#F2C94C"/>
+    <path d="M62 78 l50 -14 l38 20 l-50 14 z" fill="#E9B23A" opacity="0.35"/>
+    <!-- front face layers -->
+    <path d="M62 78 l50 14 l0 44 l-50 -14 z" fill="#F6E7C2"/>
+    <!-- side face -->
+    <path d="M112 92 l38 -6 l0 44 l-38 20 z" fill="#E7CE9A"/>
+    <!-- front layer stripes -->
+    <g>
+      <path d="M62 90 l50 14 l0 8 l-50 -14 z" fill="#B23A24"/>
+      <path d="M62 104 l50 14 l0 6 l-50 -14 z" fill="#F3E4BE"/>
+      <path d="M62 116 l50 14 l0 6 l-50 -14 z" fill="#9C2E1B"/>
+    </g>
+    <!-- side stripes -->
+    <g opacity="0.92">
+      <path d="M112 104 l38 -6 l0 8 l-38 6 z" fill="#C43A22"/>
+      <path d="M112 118 l38 -6 l0 6 l-38 6 z" fill="#EEDCB0"/>
+    </g>
+    <!-- melted cheese drip -->
+    <path d="M112 78 q10 6 22 4 q-4 8 -14 8 z" fill="#F7D765"/>
+  </g>
+  <!-- basil garnish -->
+  <g fill="#4F7A2E">
+    <path d="M120 66 q8 -6 12 2 q-8 4 -12 -2 z"/>
+    <path d="M108 62 q6 -6 10 1 q-6 4 -10 -1 z"/>
+  </g>
+  <!-- sauce dots -->
+  <g fill="#B23A24"><circle cx="150" cy="140" r="3.4"/><circle cx="158" cy="132" r="2.6"/><circle cx="60" cy="140" r="3"/></g>
+</svg>
