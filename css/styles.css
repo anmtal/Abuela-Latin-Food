@@ -176,7 +176,8 @@ body::after {
   gap: 20px; padding: 15px 0;
 }
 .brand { display: flex; align-items: center; gap: 12px; }
-.brand-logo { height: 52px; width: auto; transition: transform 0.4s var(--ease); }
+.brand-logo { height: 60px; width: auto; transition: transform 0.4s var(--ease); }
+.scrolled .brand-logo { height: 52px; }
 .brand:hover .brand-logo { transform: rotate(-3deg) scale(1.03); }
 
 .nav-links { display: flex; align-items: center; gap: 4px; }
@@ -529,7 +530,7 @@ body::after {
 .footer-top { display: grid; grid-template-columns: 1.6fr 1fr 1fr 1.3fr; gap: 40px; padding-bottom: 46px; border-bottom: 1px solid rgba(255,255,255,0.1); }
 .footer h4 { color: var(--cream); font-family: var(--font-display); font-size: 1.15rem; margin-bottom: 18px; font-weight: 600; }
 .footer-brand p { margin-top: 16px; max-width: 34ch; font-size: 0.95rem; }
-.footer .logo-invert { filter: brightness(0) invert(1); opacity: 0.95; height: 56px; }
+.footer .logo-invert { filter: brightness(0) invert(1); opacity: 0.95; height: 74px; }
 .footer-links { display: grid; gap: 12px; }
 .footer-links a { font-size: 0.96rem; transition: color 0.25s, padding-left 0.25s; }
 .footer-links a:hover { color: var(--amber); padding-left: 5px; }

@@ -13,7 +13,7 @@
   --------------------------------------------------------------------- */
   const CONFIG = {
     whatsapp: "16479726553",
-    email: "hello@abuelalatinfood.com",
+    email: "abuelalatinfood@gmail.com",
     endpoint: ""
   };
   window.ABUELA = CONFIG;

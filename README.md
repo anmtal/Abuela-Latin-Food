@@ -51,7 +51,7 @@ Business phone, WhatsApp and email live in **`js/main.js`** at the top:
 ```js
 const CONFIG = {
   whatsapp: "16479726553",          // digits only, full international
-  email:    "hello@abuelalatinfood.com",
+  email:    "abuelalatinfood@gmail.com",
   endpoint: ""                       // optional — see "Form delivery" below
 };
 ```
